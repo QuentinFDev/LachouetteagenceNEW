@@ -1,2 +1,5 @@
 User-Agent: *
-Disallow: 
+Disallow: /page2.html
+Disallow: /google72affac887df3634.html
+
+Sitemap: https://quentinfdev.github.io/LachouetteagenceNEW/
