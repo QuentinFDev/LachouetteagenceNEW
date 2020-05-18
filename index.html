@@ -295,6 +295,16 @@
         </div>
         <!-- Principal conteneur END -->
         <!--SCRIPTS JS-->
+        <script src="modernizr-custom.js"></script>
+        <script>
+            Modernizr.on('webp', function (result) {
+              if (result) {
+                // supported
+              } else {
+                // not-supported
+              }
+            });
+          </script>
         <script src="./js/jquery-2.1.0.js"></script>
         <script src="./js/bootstrap.js"></script>
         <script src="./js/blocs.js"></script>
